@@ -3,7 +3,7 @@
 #include <Keypad.h>     // https://github.com/Chris--A/Keypad
 #include <BleGamepad.h> // https://github.com/lemmingDev/ESP32-BLE-Gamepad
 
-BleGamepad bleGamepad("BoutonBox", "Simon Bourgain", 100); // Shows how you can customise the device name, manufacturer name and initial battery level
+BleGamepad bleGamepad("BoutonBox", "Sim7b", 100); // Shows how you can customise the device name, manufacturer name and initial battery level
 
 #define ENCODER_PRESS_TIME 100
 #define ENC_SEND_BUTTON 1
